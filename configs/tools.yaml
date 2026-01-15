@@ -1,0 +1,92 @@
+# 👻 PHANTOM MCP Tool Configuration
+
+# Tool-specific settings and parameters
+
+tools:
+  # Port Scanner
+  port_scan:
+    enabled: true
+    default_scan_type: "syn"
+    max_ports: 65535
+  
+  # Subdomain Enumeration
+  subdomain_enum:
+    enabled: true
+    use_dns: true
+    use_cert_transparency: true
+    max_subdomains: 1000
+  
+  # OSINT Gathering
+  osint_gather:
+    enabled: true
+    search_emails: true
+    search_breaches: true
+    search_social: false
+  
+  # Web Vulnerability Scanner
+  web_vuln_scan:
+    enabled: true
+    scan_depths:
+      quick: 1
+      normal: 3
+      intensive: 5
+    check_xss: true
+    check_sqli: true
+    check_xxe: true
+  
+  # API Security Test
+  api_security_test:
+    enabled: true
+    supported_types:
+      - rest
+      - graphql
+      - soap
+  
+  # CMS Detection
+  cms_detect:
+    enabled: true
+    supported_cms:
+      - WordPress
+      - Joomla
+      - Drupal
+      - Magento
+  
+  # Exploit Search
+  exploit_search:
+    enabled: true
+    sources:
+      - exploit-db
+      - searchsploit
+  
+  # Auto Exploit
+  auto_exploit:
+    enabled: false  # ⚠️ Disabled by default
+    modes:
+      - safe
+      - aggressive
+  
+  # Password Attack
+  password_attack:
+    enabled: false  # ⚠️ Disabled by default
+    max_attempts: 1000
+    attack_types:
+      - dictionary
+      - brute_force
+      - hybrid
+  
+  # Privilege Escalation Check
+  priv_esc_check:
+    enabled: false  # ⚠️ Disabled by default
+    supported_os:
+      - linux
+      - windows
+      - macos
+  
+  # Report Generation
+  generate_report:
+    enabled: true
+    formats:
+      - html
+      - pdf
+      - json
+      - md

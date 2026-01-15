@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+        "PHANTOM": {
+            "command": "C:\\Users\\mokha\\OneDrive\\Desktop\\phantom-mcp\\start_server.bat",
+            "args": [],
+            "cwd": "C:\\Users\\mokha\\OneDrive\\Desktop\\phantom-mcp",
+            "env": {
+                "PHANTOM_SAFE_MODE": "false"
+            }
+        }
+    }
+}

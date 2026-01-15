@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  phantom-mcp:
+    build: .
+    container_name: phantom-mcp
+    image: phantom-mcp:latest
+    stdin_open: true # Interact with stdin
+    tty: true # Allocate pseudo-TTY
+    environment:
+      - PHANTOM_SAFE_MODE=false
+      - LOG_LEVEL=INFO
+    volumes:
+      - ./reports:/app/reports
+      - ./logs:/app/logs
+      - ./.env:/app/.env
+    restart: unless-stopped
+    # MCP Clients usually run: "docker run -i phantom-mcp"

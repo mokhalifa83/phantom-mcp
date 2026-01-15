@@ -1,0 +1,20 @@
+# Placeholder for wordlists directory
+# Add your custom wordlists here
+
+## Recommended Wordlists
+
+Download and place wordlists here:
+
+- **SecLists**: https://github.com/danielmiessler/SecLists
+- **FuzzDB**: https://github.com/fuzzdb-project/fuzzdb
+- **PayloadsAllTheThings**: https://github.com/swisskyrepo/PayloadsAllTheThings
+
+Example structure:
+```
+wordlists/
+├── subdomains.txt
+├── directories.txt
+├── passwords.txt
+├── usernames.txt
+└── api-endpoints.txt
+```
