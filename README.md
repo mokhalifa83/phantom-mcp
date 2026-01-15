@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/img/logo.jpg" alt="Phantom Logo" width="250" style="border-radius: 10px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);" />
+  <img src="assets/img/logo.png" alt="Phantom Logo" width="250" />
 
   # PHANTOM MCP
   ### Enterprise Compliance & Security Framework
