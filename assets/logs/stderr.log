@@ -1,0 +1,78 @@
+
+\u26a0\ufe0f PHANTOM MCP - LEGAL NOTICE \u26a0\ufe0f
+
+This software is intended for authorized security testing and educational
+purposes only. You must comply with all applicable laws and regulations.
+
+By using this software, you agree to:
+1. Only test systems you own or have explicit written permission to test
+2. Comply with all applicable laws and regulations
+3. Take full responsibility for your actions
+4. Not use this tool for malicious purposes
+
+The authors and contributors assume no liability for misuse of this software.
+
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.utils.session] Session manager initialized
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.utils.session] Session manager initialized
+[01/14/26 01:26:05] INFO     Session manager initialized        logger.py:145
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.recon.scanner] Port scanner initialized
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.recon.scanner] Port scanner initialized
+                    INFO     Port scanner initialized           logger.py:145
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.recon.subdomain] Subdomain enumerator initialized
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.recon.subdomain] Subdomain enumerator initialized
+                    INFO     Subdomain enumerator initialized   logger.py:145
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.recon.osint] OSINT gatherer initialized
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.recon.osint] OSINT gatherer initialized
+                    INFO     OSINT gatherer initialized         logger.py:145
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.vuln_scan.web] Web vulnerability scanner initialized
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.vuln_scan.web] Web vulnerability scanner initialized
+                    INFO     Web vulnerability scanner          logger.py:145
+                             initialized                                     
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.vuln_scan.api] API scanner initialized
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.vuln_scan.api] API scanner initialized
+                    INFO     API scanner initialized            logger.py:145
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.vuln_scan.cms] CMS scanner initialized
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.vuln_scan.cms] CMS scanner initialized
+                    INFO     CMS scanner initialized            logger.py:145
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.exploit.db] Exploit searcher initialized
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.exploit.db] Exploit searcher initialized
+                    INFO     Exploit searcher initialized       logger.py:145
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.exploit.auto] Auto-exploiter initialized
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.exploit.auto] Auto-exploiter initialized
+                    INFO     Auto-exploiter initialized         logger.py:145
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.exploit.password] Password attacker initialized
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.exploit.password] Password attacker initialized
+                    INFO     Password attacker initialized      logger.py:145
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.post_exploit.privesc] Privilege escalation checker initialized
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.post_exploit.privesc] Privilege escalation checker initialized
+                    INFO     Privilege escalation checker       logger.py:145
+                             initialized                                     
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.reporting.generator] Report generator initialized
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.reporting.generator] Report generator initialized
+                    INFO     Report generator initialized       logger.py:145
+
+\u2588\u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2557  \u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2557   \u2588\u2588\u2557\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2557   \u2588\u2588\u2588\u2557
+\u2588\u2588\u2554\u2550\u2550\u2588\u2588\u2557\u2588\u2588\u2551  \u2588\u2588\u2551\u2588\u2588\u2554\u2550\u2550\u2588\u2588\u2557\u2588\u2588\u2588\u2588\u2557  \u2588\u2588\u2551\u255a\u2550\u2550\u2588\u2588\u2554\u2550\u2550\u255d\u2588\u2588\u2554\u2550\u2550\u2550\u2588\u2588\u2557\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2551
+\u2588\u2588\u2588\u2588\u2588\u2588\u2554\u255d\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2551\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2551\u2588\u2588\u2554\u2588\u2588\u2557 \u2588\u2588\u2551   \u2588\u2588\u2551   \u2588\u2588\u2551   \u2588\u2588\u2551\u2588\u2588\u2554\u2588\u2588\u2588\u2588\u2554\u2588\u2588\u2551
+\u2588\u2588\u2554\u2550\u2550\u2550\u255d \u2588\u2588\u2554\u2550\u2550\u2588\u2588\u2551\u2588\u2588\u2554\u2550\u2550\u2588\u2588\u2551\u2588\u2588\u2551\u255a\u2588\u2588\u2557\u2588\u2588\u2551   \u2588\u2588\u2551   \u2588\u2588\u2551   \u2588\u2588\u2551\u2588\u2588\u2551\u255a\u2588\u2588\u2554\u255d\u2588\u2588\u2551
+\u2588\u2588\u2551     \u2588\u2588\u2551  \u2588\u2588\u2551\u2588\u2588\u2551  \u2588\u2588\u2551\u2588\u2588\u2551 \u255a\u2588\u2588\u2588\u2588\u2551   \u2588\u2588\u2551   \u255a\u2588\u2588\u2588\u2588\u2588\u2588\u2554\u255d\u2588\u2588\u2551 \u255a\u2550\u255d \u2588\u2588\u2551
+\u255a\u2550\u255d     \u255a\u2550\u255d  \u255a\u2550\u255d\u255a\u2550\u255d  \u255a\u2550\u255d\u255a\u2550\u255d  \u255a\u2550\u2550\u2550\u255d   \u255a\u2550\u255d    \u255a\u2550\u2550\u2550\u2550\u2550\u255d \u255a\u2550\u255d     \u255a\u2550\u255d
+
+\U0001f47b Strike from the shadows - v0.1.0
+
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.server] Starting PHANTOM MCP Server...
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.server] Starting PHANTOM MCP Server...
+                    INFO     Starting PHANTOM MCP           logger.py:220
+                             Server...                                    
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.server] PHANTOM MCP Server v0.1.0 initialized
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.server] PHANTOM MCP Server v0.1.0 initialized
+                    INFO     PHANTOM MCP Server v0.1.0          logger.py:145
+                             initialized                                     
+\U0001f47b 01:26:05 \u26a0\ufe0f  WARNING  [phantom.server] \U0001f6e1\ufe0f  SAFE MODE ENABLED - High-risk operations disabled
+\U0001f47b 01:26:05 \u26a0\ufe0f  WARNING  [phantom.server] \U0001f6e1\ufe0f  SAFE MODE ENABLED - High-risk operations disabled
+                    WARNING  \U0001f6e1\ufe0f  SAFE MODE ENABLED - High-risk   logger.py:149
+                             operations disabled                             
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.server] Configuration loaded from: configs\phantom.yaml
+\U0001f47b 01:26:05 \u2139\ufe0f  INFO     [phantom.server] Configuration loaded from: configs\phantom.yaml
+                    INFO     Configuration loaded from:         logger.py:145
+                             configs\phantom.yaml                            
