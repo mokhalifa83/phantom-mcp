@@ -4,7 +4,7 @@ import os
 # Add assets/lib to path to find phantom package
 # This keeps the root directory clean as requested
 current_dir = os.path.dirname(os.path.abspath(__file__))
-lib_path = os.path.join(current_dir, "assets", "lib")
+lib_path = os.path.join(current_dir, ".phantom", "lib")
 if os.path.exists(lib_path):
     sys.path.insert(0, lib_path)
 

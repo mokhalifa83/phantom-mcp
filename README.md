@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/img/logo.png" alt="Phantom Logo" width="300" />
+  <img src=".phantom/img/logo.png" alt="Phantom Logo" width="300" />
 
   # PHANTOM MCP
   ### Enterprise Compliance & Security Framework
@@ -106,7 +106,7 @@ For isolated, secure execution on any OS:
 
 ```bash
 # 1. Build the image
-docker build -f assets/core/Dockerfile -t phantom-mcp .
+docker build -f .phantom/core/Dockerfile -t phantom-mcp .
 
 # 2. Run Interactively
 docker run -i --rm phantom-mcp
