@@ -1,0 +1,15 @@
+{
+    "mcpServers": {
+        "phantom": {
+            "command": "python",
+            "args": [
+                "phantom_mcp.py"
+            ],
+            "env": {
+                "PHANTOM_SAFE_MODE": "false"
+            },
+            "disabled": false,
+            "autoApprove": []
+        }
+    }
+}
